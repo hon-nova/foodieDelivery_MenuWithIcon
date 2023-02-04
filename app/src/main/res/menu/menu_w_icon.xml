@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/macy_res"
+        android:title="Macy's Camera"
+        android:icon="@drawable/ic_baseline_linked_camera_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/hon_res"
+        android:title="Hon's Laptop"
+        android:icon="@drawable/ic_baseline_laptop_windows_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/plane"
+                android:title="Ken's Plane"
+                android:icon="@drawable/ic_baseline_airplanemode_active_24"/>
+            <item
+                android:id="@+id/dolla"
+                android:title="Macy's Store"
+                android:icon="@drawable/ic_baseline_monetization_on_24"/>
+            <item
+                android:id="@+id/happyface"
+                android:title="Hon's Happy_Face"
+                android:icon="@drawable/ic_baseline_mood_24"/>
+        </menu>
+
+    </item>
+
+
+
+</menu>
